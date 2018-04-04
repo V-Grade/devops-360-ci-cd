@@ -1,0 +1,3 @@
+---
+
+spa_repo_url: https://github.com/V-Grade/devops-360-react/releases/download/{{ spa_version }}/build.tar.gz
