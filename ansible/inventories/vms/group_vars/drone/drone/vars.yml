@@ -1,0 +1,12 @@
+---
+# vars.yml
+
+drone_host: tp116.ccm.u13.org
+drone_admins:
+  - V-Grade
+  - Mogglio
+  - Lowess
+
+# Secrets stored in vault.yml
+drone_oauth_client: "{{ vault_drone_oauth_client }}"
+drone_oauth_secret: "{{ vault_drone_oauth_secret }}"
